@@ -1,8 +1,8 @@
-# PSGit
+# PSStack
 
-A PowerShell implementation of Git, providing a new command-line interface and object pipeline.
+A PowerShell module for working with OpenStack
 
-The intent is to take full advantage of the object Pipeline and create task-based commands following the verb-noun syntax of PowerShell.  The [Command Proposals](https://github.com/PoshCode/PSGit/wiki/Command-Proposals) are a list of the commands we probably need to implement, and how they map to `git` commands.
+The intent is to take full advantage of the object Pipeline and create task-based commands following the verb-noun syntax of PowerShell.  The [Command Proposals](https://github.com/jrich/PSStack/wiki/Command-Proposals) are a list of the commands we probably need to implement, and how they map to openstack commands.
 
 ## Secondary Goals
 
@@ -11,6 +11,8 @@ We're also using this project as a way to test out a process of co-working and d
 Therefore, we want you to [get involved](CONTRIBUTING.md)!
 
 ## Current project build status
+
+### Currently incorrect data - this is from a previous project, to be updated
 
 Build      | Status | Coverage 
 ---------- | ------ | --------
