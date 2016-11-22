@@ -10,7 +10,7 @@ ModuleVersion = '1.0'
 GUID = 'a9f9d9ec-10c9-4725-b469-d7410c0429f0'
 
 # Author of this module
-Author = Justin Rich'
+Author = 'Justin Rich'
 
 # Company or vendor of this module
 CompanyName = ''
