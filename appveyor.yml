@@ -1,0 +1,13 @@
+version: 1.0.0.{build}
+environment:
+  CODECOV_TOKEN:
+    secure: 
+build: false
+install: 
+  - git submodule update --init
+build_script:
+  - ps: .\Build.ps1 -Verbose 
+test_script:
+  - ps: .\Test.ps1 # -Quiet
+on_finish:
+  - ps: .\Package.ps1 -Verbose | % { Push-AppveyorArtifact $_.FullName }
