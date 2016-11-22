@@ -1,6 +1,6 @@
 ## Contributing
 
-Thanks for taking an insterest in contributing to the PowerShell-enabled Git module.
+Thanks for taking an insterest in contributing to the PowerShell OpenStack module.
 
 First things first: we assume you have Microsoft's [OneGet "PackageManagement" module](http://OneGet.org) already installed. It is a part of PowerShell 5, but is available downlevel, so what are you waiting for? (**install [this](http://oneget.org/install-oneget.exe)**)?
 
@@ -45,7 +45,7 @@ And then follow up by running the tests:
 
     .\Test
 
-This script will download libgit2sharp (and any other dependencies we add in the future), and then create a version-number folder (e.g. "1.0") and copy all the module code to it. 
+~~This script will download libgit2sharp (and any other dependencies we add in the future), and then create a version-number folder (e.g. "1.0") and copy all the module code to it. ~~
 
 NOTE: when contributing, you should not submit anything in the numbered folders, those are release artifacts -- all edits to code should be in the /test and /src folders
 
